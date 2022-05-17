@@ -14,4 +14,5 @@ It is an ML-based app for Android, that aims to make the target user familiar wi
 The [dataset](https://bit.ly/dataSetDates) was manually collected by my team (Maram Alshehri, Abeer Alzahrany, & Sara Alhadrami). It contains images of three types of date fruits. The images include different scenes such as an image that includes one date fruit, a group of date fruits, date fruits with white background, or on a plate. 
 
 
-### Screenshots
+### Screenshots:
+Coming soon!
