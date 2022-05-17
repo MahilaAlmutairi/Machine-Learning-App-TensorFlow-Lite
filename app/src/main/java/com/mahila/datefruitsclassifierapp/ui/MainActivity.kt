@@ -30,7 +30,9 @@ class MainActivity : AppCompatActivity() {
 
         //Set up the views
         binding.imageDes.text = vm.setUpTextView()
-        vm.setUpImageView().let { binding.imageView.setImageBitmap(it) }
+        if (vm.setUpImageView() != null) {
+            binding.imageView.setImageBitmap(vm.setUpImageView())
+        }
         //Import image from gallery
         binding.selectImage.setOnClickListener {
             getContent.launch("image/*")
