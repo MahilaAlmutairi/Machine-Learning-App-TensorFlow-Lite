@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_image">Select Image</string>
+    <string name="take_image">Take Image</string>
+    <string name="selected_image">Selected image</string>
+    <string name="reselect_image">Reselect Image</string>
+    <string name="Ajwa">Ajwa</string>
+    <string name="Rothana">Rothana</string>
+    <string name="SukkaryMofetiland">Sukkary Mofetiland</string>
+</resources>
