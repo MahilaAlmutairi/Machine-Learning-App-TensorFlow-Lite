@@ -1,4 +1,4 @@
-package com.mahila.datefruitsclassifierapp
+package com.mahila.datefruitsclassifierapp.ui
 
 import android.graphics.Bitmap
 import android.net.Uri
@@ -7,8 +7,10 @@ import android.provider.MediaStore
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import com.mahila.datefruitsclassifierapp.R
 import com.mahila.datefruitsclassifierapp.databinding.ActivityMainBinding
 import com.mahila.datefruitsclassifierapp.ml.DFModel
+import com.mahila.datefruitsclassifierapp.viewModel.DFCViewModel
 import org.tensorflow.lite.DataType
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer
 import java.nio.ByteBuffer

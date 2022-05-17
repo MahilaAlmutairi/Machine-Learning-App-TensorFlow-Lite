@@ -1,4 +1,4 @@
-package com.mahila.datefruitsclassifierapp
+package com.mahila.datefruitsclassifierapp.viewModel
 
 import android.graphics.Bitmap
 import androidx.lifecycle.ViewModel
