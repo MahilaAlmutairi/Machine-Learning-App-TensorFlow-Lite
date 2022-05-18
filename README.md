@@ -3,7 +3,7 @@
 
 # Dates Fruits Classifier App
 
-It is an ML-based app for Android, that aims to make the target user familiar with the types of date fruit. Up to now, the app can classify three types of date fruit (Ajwa, Sukkary Mofetil, and Rothana). Soon, it will support more types.
+It is a ML-based app for Android, that aims to make the target user familiar with the types of date fruit. Up to now, the app can classify three types of date fruit (Ajwa, Sukkary Mofetil, and Rothana). Soon, it will support more types.
 
 ### Used Libraries and Technologies:
 •	Tensorflow and Tensorflow Lite.\
