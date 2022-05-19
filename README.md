@@ -19,13 +19,13 @@ The [dataset](https://bit.ly/DFsDataset) was manually collected by my team (Mara
 
 ### Screenshots:
 • Import an image from the gallery
-<img src="Images\Import_an_image_from_the_gallery_AdobeCreativeCloudExpress.gif" width="1000">
+<img src="Images\Import_an_image_from_the_gallery_AdobeCreativeCloudExpress.gif" width="100">
   
 •	Take image
-<img src="Images\take_imge_AdobeCreativeCloudExpress.gif" width="1000">
+<img src="Images\take_imge_AdobeCreativeCloudExpress.gif" width="100">
   
 •	Access the app from the gallery
-<img src="Images\Access_the_app_from_the_gallery_AdobeCreativeCloudExpress.gif" width="1000">
+<img src="Images\Access_the_app_from_the_gallery_AdobeCreativeCloudExpress.gif" width="100">
   
 •	Access the app from WhatsApp
-<img src="Images\Access_the_app_from_WhatsApp_AdobeCreativeCloudExpress.gif" width="1000">
+<img src="Images\Access_the_app_from_WhatsApp_AdobeCreativeCloudExpress.gif" width="100">
