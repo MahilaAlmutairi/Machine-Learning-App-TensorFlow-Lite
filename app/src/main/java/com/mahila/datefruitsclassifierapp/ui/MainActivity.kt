@@ -1,8 +1,10 @@
 package com.mahila.datefruitsclassifierapp.ui
 
+import android.content.Intent
 import android.graphics.Bitmap
 import android.net.Uri
 import android.os.Bundle
+import android.os.Parcelable
 import android.provider.MediaStore
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.viewModels
@@ -41,6 +43,34 @@ class MainActivity : AppCompatActivity() {
         binding.takeImage.setOnClickListener {
             takeImage.launch(null)
         }
+
+        // Get intent, action and MIME type
+        val intent = intent
+        val action = intent.action
+        val type = intent.type
+
+        if (Intent.ACTION_SEND == action && type != null) {
+            if (type.startsWith("image/")) {
+                handleSentImage(intent) // Handle single image being sent from  other apps
+            }
+        }
+    }
+
+    private fun handleSentImage(intent: Intent?) {
+        //get the sent image from other apps store it in bitmap variable
+        val uriImg = intent!!.getParcelableExtra<Parcelable>(Intent.EXTRA_STREAM) as Uri?
+
+        val bitmap = MediaStore.Images.Media.getBitmap(
+            this.contentResolver, uriImg
+        )
+        vm.selectedImage(bitmap)
+        binding.imageView.setImageBitmap(vm.setUpImageView())
+        bitmap?.let {
+            image = Bitmap.createScaledBitmap(bitmap, imageSize, imageSize, false)
+            //Get class of image from the model
+            classify(image)
+        }
+
     }
 
     //image selection process
