@@ -20,7 +20,7 @@ The [dataset](https://bit.ly/DFsDataset) was manually collected by my team (Mara
 ### Screenshots:
 • Import an image from the gallery
 
-<img src="Images\Import_an_image_from_the_gallery_AdobeCreativeCloudExpress.gif" width="260">
+<img src="Images\Access_the_app_from_the_gallery_AdobeCreativeCloudExpress.gif" width="260">
   
 •	Take image
 
@@ -28,7 +28,7 @@ The [dataset](https://bit.ly/DFsDataset) was manually collected by my team (Mara
   
 •	Access the app from the gallery
 
-<img src="Images\Access_the_app_from_the_gallery_AdobeCreativeCloudExpress.gif" width="260">
+<img src="Images\Import_an_image_from_the_gallery_AdobeCreativeCloudExpress.gif" width="260">
   
 •	Access the app from WhatsApp
 
