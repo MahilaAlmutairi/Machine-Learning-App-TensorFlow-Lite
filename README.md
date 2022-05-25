@@ -4,8 +4,8 @@
 # Dates Fruits Classifier App
 
 It is a ML-based app for Android, that aims to make the target user familiar with the types of dates fruit. Up to now, the app can classify three types of dates fruit (Ajwa, Sukkary Mofetil, and Rothana). Soon, it will support more types.
-### Google Play Link:
-Soon!
+
+### [App on Google Play](https://bit.ly/dFCOnGooglePlay)
 
 ### DFC-Model source code:
 [Notebook](https://bit.ly/dfcm)
