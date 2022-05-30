@@ -28,4 +28,4 @@ The [dataset](https://bit.ly/DFsDataset) was manually collected by my team (Mara
   
 •	Access the app from WhatsApp
 
-<img src="Images\Access_the_app_from_WhatsApp_AdobeCreativeCloudExpress.gif" width="260">
+
